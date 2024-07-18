@@ -1,5 +1,5 @@
 {
-    "name": "jorrit/sonata-clone-action-bundle",
+    "name": "vlaim/sonata-clone-action-bundle",
     "description": "Sonata Admin extension that adds a clone action.",
     "keywords": [
         "sonata",
@@ -18,10 +18,10 @@
     "require": {
         "php": "^7.2 || ^8.0",
         "sonata-project/admin-bundle": "^3.84.0 || ^4.0",
-        "symfony/framework-bundle": "^4.4 || ^5.0",
-        "symfony/http-kernel": "^4.4 || ^5.1.5",
-        "symfony/property-access": "^4.4 || ^5.0",
-        "symfony/property-info": "^4.4 || ^5.0"
+        "symfony/framework-bundle": "^4.4 || ^5.0 || ^7.0",
+        "symfony/http-kernel": "^4.4 || ^5.1.5 || ^7.0",
+        "symfony/property-access": "^4.4 || ^5.0 || ^7.0",
+        "symfony/property-info": "^4.4 || ^5.0 || ^7.0"
     },
     "require-dev": {
         "doctrine/orm": "^2.8",
